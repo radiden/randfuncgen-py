@@ -5,7 +5,7 @@ from random import choice
 
 parser = argparse.ArgumentParser(description = 'ep1c p4st1ng t00l')
 parser.add_argument('num', help='amount of lines', type=int)
-parser.add_argument('--digitnum', default='6', help='the amount of digits for the int\'s values', dest='digitnum', type=int)
+parser.add_argument('--digitnum', default='6', help='the amount of digits for the ints\' values', dest='digitnum', type=int)
 parser.add_argument('--namelen', default='12', help='length of the random generated variable names and strings', dest='namelen', type=int)
 parser.add_argument('--strlen', default='16', help ='length of the random generated variable content (strings)', dest='strlen', type=int)
 parser.add_argument('--funccount', default='1', help='amount of functions to generate', dest='funccount', type=int)
