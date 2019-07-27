@@ -50,7 +50,7 @@ def main():
 				i += 1
 			x += 1
 			file.write('}\n\n')
-		print('done. file is in the directory you ran the program in.')
+		print(f'done. file written to {args.path}')
 
 if __name__ == '__main__':
 	main()
