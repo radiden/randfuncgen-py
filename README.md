@@ -22,6 +22,7 @@ optional arguments:
 	--namelen NAMELEN     length of the random generated variable names and strings
 	--strlen STRLEN       length of the random generated variable content (strings)
 	--funccount FUNCCOUNT amount of functions to generate
+	--path		PATH 	  path where the output will be saved, either a direct path or <filename> for current directory
 ```
 
 the output should be something along the lines of:

@@ -9,6 +9,7 @@ parser.add_argument('--digitnum', default='6', help='the amount of digits for th
 parser.add_argument('--namelen', default='12', help='length of the random generated variable names and strings', dest='namelen', type=int)
 parser.add_argument('--strlen', default='16', help ='length of the random generated variable content (strings)', dest='strlen', type=int)
 parser.add_argument('--funccount', default='1', help='amount of functions to generate', dest='funccount', type=int)
+parser.add_argument('--path', default='out.cpp', help='path where the output will be saved, either a direct path or <filename> for current directory', dest='path')
 args = parser.parse_args()
 
 chars = string.ascii_uppercase + string.ascii_lowercase
@@ -21,8 +22,8 @@ def strcont():
 	return "".join(choice(chars) for i in range(0,args.strlen))
 
 def main():
-	x = 0
-	with open('out.cpp', '+w') as file:
+	x = 1
+	with open(args.path, '+w') as file:
 		file.write('#include <string>\n#include <iostream>\n#include <stdio.h>\n\n')
 		while x <= args.funccount:
 			file.write(f'void {makename()}()' + '{\n')
