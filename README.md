@@ -2,7 +2,7 @@
 hello fellow skids
 ever got this on your profie?
 
-\<placeholder for an image woo\>
+![](https://u.teknik.io/p09bV.png)
 
 well now with this ep1c b1g p4s71n6 t00l you can fuck vac right in the ass
 
