@@ -11,7 +11,7 @@ you might ask, how to use this marvelous software?
 well. its as simple as:
 
 ```
-python obfuscate.py [--digitnum DIGITNUM] [--namelen NAMELEN] [--strlen STRLEN] [--funccount FUNCCOUNT] num
+python randfuncgen.py [--digitnum DIGITNUM] [--namelen NAMELEN] [--strlen STRLEN] [--funccount FUNCCOUNT] num
 
 required arguments:
 	num - amount of lines
