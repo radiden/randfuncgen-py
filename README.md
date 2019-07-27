@@ -26,7 +26,7 @@ optional arguments:
 
 the output should be something along the lines of:
 
-![](https://u.teknik.io/5jXQn.png)
+![](https://u.teknik.io/J1ell.png)
 
 in the future im planning to add more ep1c variables so you can customize your trash even more
 
