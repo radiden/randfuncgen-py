@@ -32,5 +32,5 @@ in the future im planning to add more ep1c variables so you can customize your t
 
 planned features (when im not lazy):
 - ~~choose how many functions you want to generate~~
-- specify file to be written to (now it defaults to out.cpp in the directory you ran the script from)
+- ~~specify file to be written to (now it defaults to out.cpp in the directory you ran the script from)~~
 - idk tell me what you want
