@@ -2,7 +2,7 @@
 hello fellow skids
 ever got this on your profie?
 
-![](https://u.teknik.io/p09bV.png)
+![](https://u.teknik.io/gc3rt.png)
 
 well now with this ep1c b1g p4s71n6 t00l you can fuck vac right in the ass
 
@@ -14,6 +14,10 @@ well. its as simple as:
 python obfuscate.py [-h] num
 num - amount of lines
 ```
+
+the output should be something along the lines of:
+
+![](https://u.teknik.io/5jXQn.png)
 
 for now. in the future im planning to add more ep1c variables so you can customize your trash even more
 
