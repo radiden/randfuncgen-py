@@ -18,7 +18,7 @@ required arguments:
 
 optional arguments:
 	-h, --help            show this help message and exit
-	--digitnum DIGITNUM   the amount of digits for the int's values
+	--digitnum DIGITNUM   the amount of digits for the ints' values
 	--namelen NAMELEN     length of the random generated variable names and strings
 	--strlen STRLEN       length of the random generated variable content (strings)
 	--funccount FUNCCOUNT amount of functions to generate
