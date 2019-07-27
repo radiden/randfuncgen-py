@@ -35,9 +35,9 @@ def main():
 				if type == "s":
 					cont = choice(['true', 'false'])
 					if cont == 'true':
-						file.write(f'    string {makename()} = "{strcont()}";' + '\n')
+						file.write(f'    std::string {makename()} = "{strcont()}";' + '\n')
 					else:
-						file.write(f'    string {makename()};' + '\n')
+						file.write(f'    std::string {makename()};' + '\n')
 				if type == "i":
 					digits = "".join(choice(numbers) for i in range(0,args.digitnum))
 					file.write(f'    int {makename()} = {digits};' + '\n')
